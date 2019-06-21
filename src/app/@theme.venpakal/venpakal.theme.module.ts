@@ -150,10 +150,10 @@ const NB_THEME_PROVIDERS = [
   declarations: [...COMPONENTS, ...PIPES],
   entryComponents: [...ENTRY_COMPONENTS],
 })
-export class ThemeModule {
+export class VenpakalThemeModule {
   static forRoot(): ModuleWithProviders {
     return <ModuleWithProviders>{
-      ngModule: ThemeModule,
+      ngModule: VenpakalThemeModule,
       providers: [...NB_THEME_PROVIDERS],
     };
   }

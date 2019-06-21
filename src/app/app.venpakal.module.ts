@@ -12,7 +12,7 @@ import { CoreModule } from './@core/core.module';
 
 import { AppComponent } from './app.component';
 import { AppVenpakalRoutingModule } from './app-venpakal-routing.module';
-import { ThemeModule } from './@theme/theme.module';
+import { VenpakalThemeModule } from './@theme.venpakal/venpakal.theme.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppVenpakalComponent } from './app.venpakal.component';
 
@@ -25,7 +25,7 @@ import { AppVenpakalComponent } from './app.venpakal.component';
     AppVenpakalRoutingModule,
 
     NgbModule.forRoot(),
-    ThemeModule.forRoot(),
+    VenpakalThemeModule.forRoot(),
     CoreModule.forRoot(),
   ],
   bootstrap: [AppVenpakalComponent],
