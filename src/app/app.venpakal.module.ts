@@ -10,7 +10,6 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { CoreModule } from './@core/core.module';
 
-import { AppComponent } from './app.component';
 import { AppVenpakalRoutingModule } from './app-venpakal-routing.module';
 import { VenpakalThemeModule } from './@theme.venpakal/venpakal.theme.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';

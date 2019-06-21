@@ -58,7 +58,7 @@ import {
 } from './pipes';
 import {
   OneColumnLayoutComponent,
-  SampleLayoutComponent,
+  SampleLayoutVenpakalComponent,
   ThreeColumnsLayoutComponent,
   TwoColumnsLayoutComponent,
 } from './layouts';
@@ -111,7 +111,7 @@ const COMPONENTS = [
   SearchInputComponent,
   ThemeSettingsComponent,
   OneColumnLayoutComponent,
-  SampleLayoutComponent,
+  SampleLayoutVenpakalComponent,
   ThreeColumnsLayoutComponent,
   TwoColumnsLayoutComponent,
   ToggleSettingsButtonComponent,

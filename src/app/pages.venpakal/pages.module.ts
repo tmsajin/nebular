@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 
-import { PagesComponent } from './pages.component';
+import { PagesVenpakalComponent } from './pages.venpakal.component';
 import { DashboardModule } from './dashboard/dashboard.module';
-import { PagesRoutingModule } from './pages-routing.module';
-import { ThemeModule } from '../@theme/theme.module';
+import { PagesVenpakalRoutingModule } from './pages-venpakal-routing.module';
+import { VenpakalThemeModule } from '../@theme.venpakal/venpakal.theme.module';
 import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
 
 const PAGES_COMPONENTS = [
-  PagesComponent,
+  PagesVenpakalComponent,
 ];
 
 @NgModule({
   imports: [
-    PagesRoutingModule,
-    ThemeModule,
+    PagesVenpakalRoutingModule,
+    VenpakalThemeModule,
     DashboardModule,
     MiscellaneousModule,
   ],
@@ -21,5 +21,5 @@ const PAGES_COMPONENTS = [
     ...PAGES_COMPONENTS,
   ],
 })
-export class PagesModule {
+export class PagesVenpakalModule {
 }

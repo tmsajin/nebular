@@ -55,7 +55,7 @@ import { StateService } from '../../../@core/utils';
     <ngx-toggle-settings-button></ngx-toggle-settings-button>
   `,
 })
-export class SampleLayoutComponent implements OnDestroy {
+export class SampleLayoutVenpakalComponent implements OnDestroy {
 
   subMenu: NbMenuItem[] = [
     {
